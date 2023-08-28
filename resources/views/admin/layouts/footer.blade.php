@@ -727,7 +727,7 @@ function copyToClipboard(id) {
   navigator.clipboard.writeText(copyText.value);
   
   // Alert the copied text
-    alert("{{trans('trans.You can paste this message in Alwats August')}}: " + copyText.value);
+   // alert("{{trans('trans.You can paste this message in Alwats August')}}: " + copyText.value);
 
 }
 </script>

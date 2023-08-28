@@ -141,7 +141,7 @@ style="width: 150px; height: 150px;"
                         >
                         </a> 
 
-                         <a onclick="copyToClipboard('copy_{{ $admin->id }}')" href="http://Wa.me/966{{$admin->phone}}?text=https://www.youtube.com/watch?v=ohpCMpderow" target="_blank">
+                         <a onclick="copyToClipboard('copy_{{ $admin->id }}')" href="http://Wa.me/966{{$admin->phone}}?text={{url('/')}}/{{ $admin->image}}" target="_blank">
                                     <i class="fa fa-whatsapp" style="margin-top: 21%;font-size:40px;color:green"></i>
                                 </a>
 
