@@ -147,6 +147,14 @@ style="width: 150px; height: 150px;"
                                                                 <i class="fa fa-angle-down"></i>
                                                             </button>
                                                             <ul class="dropdown-menu pull-left" role="menu">
+
+                                                                
+
+                                                                  <li>
+                                                 <a href="{{url('/')}}/checkifcome/{{$admin->id}}/edit">
+                                     <i class="icon-docs"></i>  تأكيد بدون كيو ار  </a>
+                                                                </li>
+
                                                                 <li>
                                                  <a href="{{url('/')}}/admins/{{$admin->id}}/edit">
                                      <i class="icon-docs"></i>{{trans('trans.edit')}} </a>
