@@ -151,7 +151,7 @@ style="width: 150px; height: 150px;"
                                                                 
 
                                                                   <li>
-                                                 <a href="{{url('/')}}/checkifcome/{{$admin->id}}/edit">
+                                                 <a href="{{url('/')}}/checkifcome/{{$admin->id}}">
                                      <i class="icon-docs"></i>  تأكيد بدون كيو ار  </a>
                                                                 </li>
 
