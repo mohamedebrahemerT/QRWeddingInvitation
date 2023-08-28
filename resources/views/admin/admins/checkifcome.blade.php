@@ -374,11 +374,11 @@ left: 228px;
             
             افراح  عائلة الدريس 
             <br>
-           	 {{trans('trans.id')}}:{{$admin->id}}
+           	 االمعرف  :{{$admin->id}}
            	 <br>
-           	  {{trans('trans.phone')}}:{{$admin->phone}}
+           	   الجوال  :{{$admin->phone}}
            	 <br>
-           	  {{trans('trans.name')}}:{{$admin->name}}
+           	  الاسم   :{{$admin->name}}
            	 <br>
            	 والعاقبة في  المسرات 
 
