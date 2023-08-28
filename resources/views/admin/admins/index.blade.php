@@ -146,7 +146,7 @@ style="width: 150px; height: 150px;"
                                 </a>
 
                                 <input type="text" id="copy_{{ $admin->id }}" 
-value="{!! url('/')}}/{{ $admin->image   !!}"     style="width: 0px;
+value="{{url('/')}}/{{ $admin->image   }}"     style="width: 0px;
 border: white;"   /> 
                          
                                                       </td>
