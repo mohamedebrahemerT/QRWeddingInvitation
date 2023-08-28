@@ -141,12 +141,12 @@ style="width: 150px; height: 150px;"
                         >
                         </a> 
 
-                         <a onclick="copyToClipboard('copy_{{ $admin->id }}')" href="http://Wa.me/966{{$admin->phone}}" target="_blank">
+                         <a onclick="copyToClipboard('copy_{{ $admin->id }}')" href="http://Wa.me/966{{$admin->phone}}?text=https://www.youtube.com/watch?v=ohpCMpderow" target="_blank">
                                     <i class="fa fa-whatsapp" style="margin-top: 21%;font-size:40px;color:green"></i>
                                 </a>
 
                                 <input type="text" id="copy_{{ $admin->id }}" 
-value="{{url('/')}}/{{ $admin->image   }}"     style="width: 0px;
+value="{!! url('/')}}/{{ $admin->image   !!}"     style="width: 0px;
 border: white;"   /> 
                          
                                                       </td>
