@@ -118,7 +118,7 @@
                                                         </label>
                                                     </td>
                                                     <td> {{$admin->name}} </td>
-                                                     checkifcome
+                                                      
                                                     <td>
                                                       {{$admin->phone}} 
                                                     </td>
